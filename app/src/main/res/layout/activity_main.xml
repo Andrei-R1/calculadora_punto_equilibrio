@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextFixedCosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costos Fijos"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextVariableCosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costos Variables"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextSellingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio de Venta"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+</LinearLayout>
